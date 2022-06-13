@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, arial, sans-serif;
+    font-size: 20px;
+    color: #1F1F1F;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color:#A2B6C4;
+    color: #FDE8E3;
+}
+.main-photo {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.header-name {
+    border-bottom: 1px solid #FDE8E3;
+    padding-bottom: 10px;
+}
+.contacts {
+    padding: 0;
+    display: flex;
+}
+
+.contacts li {
+    display: inline-block;
+    width: 33%;
+}
+
+main {
+    background-color: #FEFFFA;
+}
+h2 {
+    font-size: 24px;
+    color: #8FA7B8;
+    text-transform: uppercase;
+    margin: 30px 0 10px;
+    font-weight: lighter;
+}
+
+.about {
+    padding: 30px 90px 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px dotted #8FA7B8;
+}
+.about-me-text {
+    font-weight: lighter;
+    text-align: center;
+    line-height: 1.67;
+}
+
+p {
+    margin: 0 0 10px;
+}
+.code-piece {
+    background-color: #1F1F1F;
+    border-radius: 20px;
+    color: #FDE8E3;
+    padding: 10px 10px;
+}
+.soft-skills {
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+footer {
+    padding: 15px 0 10px;
+    background-color:#A2B6C4;
+    color: #FDE8E3;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.github-link {
+    color: #FDE8E3;
+}
+.rs-logo {
+    height: 40px;
+}
